@@ -13,7 +13,7 @@ This repository is a functional demo implementation for a simple SMART on FHIR b
 
 The project demonstrates a simple end-to-end workflow:
 
-- Retrieving data from multiple FHIR servers
+- Retrieving data from 2 FHIR servers
 - Transforming raw FHIR resources into normalized formats
 - Serving application-ready data for a dashboard use case
 
@@ -58,16 +58,16 @@ integrations/       # Data serving layer (plugins/use cases)
 API → FHIR Client → Data Pipeline → Integrations
 ```
 
-- **API Layer (**``**)**\
+- **API Layer**:
   Entry point of the system. Handles HTTP requests and routes them to services.
 
-- **FHIR Client (**``**)**\
+- **FHIR Client**:
   Responsible for fetching data from FHIR servers. Encapsulates server-specific logic.
 
-- **Data Pipeline (**``**)**\
+- **Data Pipeline**:
   Transforms raw FHIR resources into flattened and consistent structures.
 
-- **Integrations (**``**)**\
+- **Integrations**:
   Builds application-specific outputs (dashboard data in this case) from normalized data.
 
 ---
@@ -153,9 +153,9 @@ Example response:
 6. Verify:
    - Data is retrieved from the FHIR server
    - Data is transformed correctly
-   - Dashboard output is structured and anonymized
+   - Dashboard output is structured 
 
----
+
 
 
 
