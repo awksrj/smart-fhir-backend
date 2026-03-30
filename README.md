@@ -1,9 +1,13 @@
 # SMART on FHIR Backend (Demo)
 
 Project: Enhancing the SMART on FHIR Backend for Patient-Controlled Data Sharing
+
 Organization: Data for the Common Good
+
 Author: Olive Do
+
 Program: Google Summer of Code 2026
+
 
 This repository is a functional demo implementation for a simple SMART on FHIR backend, developed as part of a GSoC 2026 proposal.
 
